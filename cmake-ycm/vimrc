@@ -23,7 +23,7 @@ Plugin 'lifepillar/vim-solarized8'
 Plugin 'scheakur/vim-scheakur'
 Plugin 'Badacadabra/vim-archery'
 " Plugin 'sainnhe/edge'
-Plugin 'branwright1/salvation-vim'
+" Plugin 'branwright1/salvation-vim'
 
 " Other
 Plugin 'sheerun/vim-polyglot'
@@ -53,7 +53,7 @@ endif
 
 set guifont=Hack\ 11    " Set font
 set background=dark     " Set background 
-colorscheme edge        " Set color scheme
+colorscheme solarized8 " Set color scheme
 
 " ------------------------------------------------------------
 " AUTO-PAIRS
