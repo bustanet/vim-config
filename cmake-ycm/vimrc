@@ -9,21 +9,22 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 
 " Plugins will be downloaded under the specified directory.
-call vundle#begin('~/.vim/plugged')
+call vundle#begin()
 
 " Let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
 " Colorschemes
-Plugin 'kristijanhusak/vim-hybrid-material'
-Plugin 'cocopon/iceberg.vim'
-Plugin 'arcticicestudio/nord-vim'
-Plugin 'sjl/badwolf'
-Plugin 'lifepillar/vim-solarized8'
-Plugin 'scheakur/vim-scheakur'
-Plugin 'Badacadabra/vim-archery'
+" Plugin 'kristijanhusak/vim-hybrid-material'
+" Plugin 'cocopon/iceberg.vim'
+" Plugin 'arcticicestudio/nord-vim'
+" Plugin 'sjl/badwolf'
+ Plugin 'lifepillar/vim-solarized8'
+" Plugin 'scheakur/vim-scheakur'
+" Plugin 'Badacadabra/vim-archery'
 " Plugin 'sainnhe/edge'
 " Plugin 'branwright1/salvation-vim'
+Plugin 'morhetz/gruvbox'
 
 " Other
 Plugin 'sheerun/vim-polyglot'
@@ -53,7 +54,8 @@ endif
 
 set guifont=Hack\ 11    " Set font
 set background=dark     " Set background 
-colorscheme solarized8 " Set color scheme
+" colorscheme solarized8 " Set color scheme
+autocmd vimenter * ++nested colorscheme gruvbox
 
 " ------------------------------------------------------------
 " AUTO-PAIRS
